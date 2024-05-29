@@ -1,4 +1,7 @@
 /* @import 'meyer-reset.css'; */
+
+/* SETTINGS */
+
 :root {
     --main-bg-color: #F2E8DF;
     --main-font-color:#26110D;
@@ -10,6 +13,13 @@
     background-color: --main-bg-color;
     font-family:Arial, Helvetica, sans-serif;
     color: var(--main-font-color);
+}
+
+/* HEADER */
+
+header {
+    background-color: var(--accent-color);
+    color: var(--main-bg-color);
 }
 
 .topnav {
@@ -35,3 +45,7 @@
     background-color: var(--accent-color-2);
     color: white;
 }
+
+/* MAIN */
+
+/* FOOTER */
